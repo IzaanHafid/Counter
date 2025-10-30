@@ -1,0 +1,88 @@
+* {
+    background-color: rgb(15, 15, 30);
+    font-size: 1.2em;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+div {
+    display: inline-block;
+    padding: 20px;
+    border-style: solid;
+    border-radius: 30px;
+}
+
+input {
+    background-color: rgb(15, 15, 20);
+    margin: 5px;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 2.5px;
+    border-color: white;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+button {
+    background-color: rgb(15, 15, 20);
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-style: solid;
+    border-radius: 30px;
+    border-width: 5px;
+    transition: background-color 0.25s;
+}
+
+button:hover {
+    background-color: rgb(20, 20, 30);
+}
+
+button:active {
+    background-color: rgb(10, 10, 30);
+}
+
+.submit_button {
+    font-size: 1.7em;
+}
+
+.count {
+    display: inline-block;
+    background-color: rgb(20, 20, 30);
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-style: solid;
+    border-radius: 20px;
+}
+
+.error {
+    color: red;
+}
+
+.negatea, .negateb {
+    background-color: rgb(50, 15, 20);
+}
+
+.negatea:hover, .negateb:hover {
+    background-color: rgb(70, 15, 20);
+}
+
+.negatea:active, .negateb:active {
+    background-color: rgb(30, 15, 20);
+}
+
+.adda, .addb {
+    background-color: rgb(15, 50, 20);
+}
+
+.adda:hover, .addb:hover {
+    background-color: rgb(15, 70, 20);
+}
+
+.adda:active, .addb:active {
+    background-color: rgb(15, 30, 20);
+}
