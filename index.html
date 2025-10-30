@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <title>Counter</title>
+</head>
+<body>
+    <h1>Counter</h1>
+    <label for="input">Starting Value: </label>
+    <input type="number" placeholder="Starting Value" id="input_startingValue"><br>
+    <label for="input">Smaller Increment: </label>
+    <input type="number" placeholder="Smaller Increment" id="input_smallerIncrement"><br>
+    <label for="input">Larger Increment: </label>
+    <input type="number" placeholder="Larger Increment" id="input_largerIncrement"> <br><br>
+    <button id="submit_button" class="submit_button">Submit</button><br><br>
+    <h2 id="error" class="error"></h2>
+    <div class="div_counter">
+        <h2 class="count" id="count"></h2>
+            <br>
+            <div class="div_buttons">
+            <button id="negateb" class="negateb"> </button>
+            <button id="negatea" class="negatea"> </button>
+            <button id="adda" class="adda"> </button>
+            <button id="addb" class="addb"> </button><br><br>
+            <button id="reset" class="reset">Reset</button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
